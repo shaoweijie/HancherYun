@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_background_color">#0a4fce</color>
+    <color name="actionbar_text_color">#FFFFFF</color>
+
+    <color name="tab_selected_underline_color">@color/tab_accent_color</color>
+    <color name="tab_accent_color">#ffffff</color>
+    <color name="tab_ripple_color">@color/tab_accent_color</color>
+    <color name="tab_text_color">#FFFFFF</color>
+    
+    <color name="hancher_background_light">#FAFAFA</color>
+    <color name="hancher_background_dark">#444444</color>
+    
+    <color name="button_default_color">#0a4fce</color>
+    <color name="button_focus_color">#0388D3</color>
+    <color name="button_press_color">#81C36C</color>
+    <color name="button_text_light">#FFFFFF</color>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hancher_background_light"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/info_content_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:text="手机信息的记录：\n666" />
+
+</LinearLayout>

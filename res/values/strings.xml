@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HancherYun0.2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="left_navigation_drawer_note">文字管理</string>
+    <string name="left_navigation_drawer_info">手机信息</string>
+    <string name="top_title_note">你的文字管理</string>
+    <string name="top_title_info">你的手机信息</string>
+    <string name="note_write_tab_title">记录</string>
+    <string name="note_read_tab_title">查看</string>
+    <string name="note_info_tab_title">状态</string>
+    <string name="menu_kind">分类</string>
+    <string name="menu_serach">搜索</string>
+
+</resources>

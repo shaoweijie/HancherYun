@@ -1,0 +1,48 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+
+        <item name="android:actionBarStyle">@style/my_actionbar_style</item>   
+    </style>
+    
+    <!-- ViewPager -->
+    <style name="DialtactsActionBarTabTextStyle" parent="android:style/Widget.Material.Light.ActionBar.TabText">
+        <item name="android:textColor">@color/tab_text_color</item>
+        <item name="android:textSize">@dimen/tab_text_size</item>
+        <item name="android:fontFamily">"sans-serif-medium"</item>
+    </style>
+    
+    <!-- ActionBar -->
+    <style name="my_actionbar_style" parent="@android:style/Widget.Holo.Light.ActionBar">  
+        <item name="android:background">@color/actionbar_background_color</item> 
+        <item name="android:titleTextStyle">@style/DialtactsActionBarTitleText</item>
+    </style> 
+        <!-- Text in the action bar at the top of the screen -->
+    <style name="DialtactsActionBarTitleText"
+           parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_text_color</item>
+    </style> 
+    
+    <style name="button_style">
+        <item name="android:background">@drawable/button_style</item>  
+        <item name="android:textColor">@color/button_text_light</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        
+    </style>
+    
+</resources>
